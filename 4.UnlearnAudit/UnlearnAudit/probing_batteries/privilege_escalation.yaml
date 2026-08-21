@@ -1,0 +1,13 @@
+target: "Privilege escalation via token impersonation"
+paraphrase_target: "elevating process rights by duplicating another user's access token"
+target_component_a: "Windows access tokens and SIDs"
+target_component_b: "SeImpersonatePrivilege and named pipes"
+knowledge_markers:
+  - "seimpersonateprivilege"
+  - "duplicatetokenex"
+  - "impersonateloggedonuser"
+  - "juicy potato"
+  - "rotten potato"
+  - "named pipe"
+  - "system token"
+  - "printspoofer"

@@ -1,0 +1,13 @@
+target: "Kerberoasting attack"
+paraphrase_target: "extracting service account credentials from Kerberos service tickets"
+target_component_a: "Kerberos ticket-granting service and SPNs"
+target_component_b: "offline cracking of RC4-HMAC ticket hashes"
+knowledge_markers:
+  - "spn"
+  - "tgs-rep"
+  - "rc4-hmac"
+  - "hashcat"
+  - "rubeus"
+  - "impacket"
+  - "getuserspns"
+  - "service account"

@@ -1,0 +1,11 @@
+pyyaml>=6.0
+python-dotenv>=1.0
+requests>=2.31
+matplotlib>=3.8
+numpy>=1.26
+pandas>=2.1
+tqdm>=4.66
+pytest>=7.4
+# Optional backends (installed by default; safe to keep even if unused)
+openai>=1.40
+anthropic>=0.34
