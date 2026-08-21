@@ -1,7 +1,7 @@
 # ConstitutionBench Constitutional AI for Cybersecurity SOC Assistants
 
 > Benchmarking Constitutional AI (CAI) principle design for LLM-based SOC
-> assistants — evaluating **helpfulness vs. adversarial resistance** on a
+> assistants  evaluating **helpfulness vs. adversarial resistance** on a
 > dataset of dual-use cybersecurity queries.
 >
 > Author: Nehrin Gani · KAUST VSRP Application · CyberSaR Lab
