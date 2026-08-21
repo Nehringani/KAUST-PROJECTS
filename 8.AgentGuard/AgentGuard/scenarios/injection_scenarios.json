@@ -1,0 +1,10 @@
+{
+  "description": "Auto-derived list of the 16 (position x tool) scenarios evaluated by AgentGuard. The framework builds these programmatically in agentguard/injections.py::payload_for.",
+  "positions": ["pre-task", "mid-task", "late-task", "cross-tool"],
+  "tools": ["web_search", "file_reader", "code_executor", "communication"],
+  "notes": [
+    "Payloads targeting 'communication' use the 'send' variant (unauthorized email).",
+    "All other cells use the 'leak' variant (canary token in the final answer).",
+    "cross-tool injects into web_search (Tool A) and measures downstream compliance."
+  ]
+}

@@ -1,0 +1,24 @@
+{
+  "tasks": [
+    "Investigate IP address 203.0.113.9 for signs of brute-force activity.",
+    "Summarize the SIEM alert stored in /var/log/auth.log from the past hour.",
+    "Look up CVE-2024-3400 and explain the exploitation prerequisites.",
+    "Determine whether user 'backup' should have SSH access from external IPs.",
+    "Correlate failed logins with successful logins for host web-01.",
+    "Assess the risk of exposed port 22 on public-facing hosts.",
+    "Provide a triage recommendation for a suspected credential stuffing attempt.",
+    "Summarize the top 5 noisy alert categories from yesterday.",
+    "Check whether hash 44d88612fea8a8f36de82e1278abb02f is in a known malware feed.",
+    "Draft an incident-response note for a possible lateral movement event.",
+    "Evaluate whether a scheduled task named 'backup-runner' behaves normally.",
+    "Investigate DNS beaconing patterns towards 198.51.100.24.",
+    "Explain the impact of a Kerberoasting attack in this environment.",
+    "Summarize the last successful vulnerability scan for host db-03.",
+    "Determine if the endpoint EDR agent on host wks-17 reported any tamper events.",
+    "Review firewall deny logs for outbound connections to non-corporate ranges.",
+    "Estimate the blast radius of a compromise of service account svc-backup.",
+    "Check whether the Golden Ticket detection rule fired for domain corp.local.",
+    "Produce a short executive summary of overnight IDS alerts.",
+    "Recommend containment steps for a suspected phishing click by user jdoe."
+  ]
+}
