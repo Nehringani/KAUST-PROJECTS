@@ -1,0 +1,21 @@
+# Core
+pyyaml>=6.0
+python-dotenv>=1.0
+pydantic>=2.6
+
+# LLM clients (all optional at runtime; providers picked by .env)
+openai>=1.40
+anthropic>=0.34
+requests>=2.32
+
+# Multi-turn conversation management (optional)
+langchain>=0.2
+langchain-core>=0.2
+
+# Dashboard
+streamlit>=1.36
+pandas>=2.2
+plotly>=5.22
+
+# Tests
+pytest>=8.2

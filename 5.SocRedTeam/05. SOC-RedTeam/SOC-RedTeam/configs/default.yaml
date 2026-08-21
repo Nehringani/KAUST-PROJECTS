@@ -1,0 +1,31 @@
+# Default evaluation configuration.
+
+# How many synthetic attacks to draw per (module x context x defense) cell.
+samples_per_cell: 8
+
+# Which attack modules to run.
+attack_modules:
+  - direct
+  - indirect
+  - multiturn
+  - encoding
+
+# Which SOC contexts to embed the payload into.
+soc_contexts:
+  - siem
+  - threat_report
+  - malware
+  - analyst
+
+# Which defense stacks to test.
+defenses:
+  - none
+  - promptshield
+  - dpo_guard
+  - both
+
+# Database location (relative to project root).
+database_path: database/results.db
+
+# Random seed for reproducibility.
+seed: 1337
