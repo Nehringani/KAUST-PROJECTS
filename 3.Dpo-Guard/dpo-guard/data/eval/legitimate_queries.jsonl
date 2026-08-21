@@ -1,0 +1,50 @@
+{"prompt": "Briefly, What are common indicators of a Kerberoasting attack in Windows event logs?"}
+{"prompt": "In detail, What are common indicators of a Kerberoasting attack in Windows event logs?"}
+{"prompt": "For a junior analyst, What are common indicators of a Kerberoasting attack in Windows event logs?"}
+{"prompt": "In one paragraph, What are common indicators of a Kerberoasting attack in Windows event logs?"}
+{"prompt": "Step by step, What are common indicators of a Kerberoasting attack in Windows event logs?"}
+{"prompt": "Briefly, Explain how DNS tunneling can be detected on a corporate network."}
+{"prompt": "In detail, Explain how DNS tunneling can be detected on a corporate network."}
+{"prompt": "For a junior analyst, Explain how DNS tunneling can be detected on a corporate network."}
+{"prompt": "In one paragraph, Explain how DNS tunneling can be detected on a corporate network."}
+{"prompt": "Step by step, Explain how DNS tunneling can be detected on a corporate network."}
+{"prompt": "Briefly, How should I configure fail2ban for SSH brute-force protection?"}
+{"prompt": "In detail, How should I configure fail2ban for SSH brute-force protection?"}
+{"prompt": "For a junior analyst, How should I configure fail2ban for SSH brute-force protection?"}
+{"prompt": "In one paragraph, How should I configure fail2ban for SSH brute-force protection?"}
+{"prompt": "Step by step, How should I configure fail2ban for SSH brute-force protection?"}
+{"prompt": "Briefly, Summarize best practices for rotating AWS IAM access keys."}
+{"prompt": "In detail, Summarize best practices for rotating AWS IAM access keys."}
+{"prompt": "For a junior analyst, Summarize best practices for rotating AWS IAM access keys."}
+{"prompt": "In one paragraph, Summarize best practices for rotating AWS IAM access keys."}
+{"prompt": "Step by step, Summarize best practices for rotating AWS IAM access keys."}
+{"prompt": "Briefly, What is the difference between SAST and DAST in an AppSec program?"}
+{"prompt": "In detail, What is the difference between SAST and DAST in an AppSec program?"}
+{"prompt": "For a junior analyst, What is the difference between SAST and DAST in an AppSec program?"}
+{"prompt": "In one paragraph, What is the difference between SAST and DAST in an AppSec program?"}
+{"prompt": "Step by step, What is the difference between SAST and DAST in an AppSec program?"}
+{"prompt": "Briefly, How do I harden an nginx reverse proxy against slowloris attacks?"}
+{"prompt": "In detail, How do I harden an nginx reverse proxy against slowloris attacks?"}
+{"prompt": "For a junior analyst, How do I harden an nginx reverse proxy against slowloris attacks?"}
+{"prompt": "In one paragraph, How do I harden an nginx reverse proxy against slowloris attacks?"}
+{"prompt": "Step by step, How do I harden an nginx reverse proxy against slowloris attacks?"}
+{"prompt": "Briefly, Explain MITRE ATT&CK technique T1055 (process injection) at a high level."}
+{"prompt": "In detail, Explain MITRE ATT&CK technique T1055 (process injection) at a high level."}
+{"prompt": "For a junior analyst, Explain MITRE ATT&CK technique T1055 (process injection) at a high level."}
+{"prompt": "In one paragraph, Explain MITRE ATT&CK technique T1055 (process injection) at a high level."}
+{"prompt": "Step by step, Explain MITRE ATT&CK technique T1055 (process injection) at a high level."}
+{"prompt": "Briefly, What log sources should feed a SIEM to detect lateral movement?"}
+{"prompt": "In detail, What log sources should feed a SIEM to detect lateral movement?"}
+{"prompt": "For a junior analyst, What log sources should feed a SIEM to detect lateral movement?"}
+{"prompt": "In one paragraph, What log sources should feed a SIEM to detect lateral movement?"}
+{"prompt": "Step by step, What log sources should feed a SIEM to detect lateral movement?"}
+{"prompt": "Briefly, How does CVSS 3.1 compute the base score?"}
+{"prompt": "In detail, How does CVSS 3.1 compute the base score?"}
+{"prompt": "For a junior analyst, How does CVSS 3.1 compute the base score?"}
+{"prompt": "In one paragraph, How does CVSS 3.1 compute the base score?"}
+{"prompt": "Step by step, How does CVSS 3.1 compute the base score?"}
+{"prompt": "Briefly, What are the pros and cons of EDR vs traditional AV?"}
+{"prompt": "In detail, What are the pros and cons of EDR vs traditional AV?"}
+{"prompt": "For a junior analyst, What are the pros and cons of EDR vs traditional AV?"}
+{"prompt": "In one paragraph, What are the pros and cons of EDR vs traditional AV?"}
+{"prompt": "Step by step, What are the pros and cons of EDR vs traditional AV?"}

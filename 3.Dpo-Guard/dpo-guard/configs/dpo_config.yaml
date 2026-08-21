@@ -1,0 +1,47 @@
+# DPO training configuration
+# Every value here can be overridden via CLI flags in src/train_dpo.py.
+
+model:
+  # Default: Phi-2 fits comfortably on a free Colab T4 (15 GB).
+  # Swap to "mistralai/Mistral-7B-Instruct-v0.1" and keep quantization.load_in_4bit=true.
+  name: "microsoft/phi-2"
+  trust_remote_code: true
+
+quantization:
+  load_in_4bit: true
+  bnb_4bit_quant_type: "nf4"
+  bnb_4bit_compute_dtype: "bfloat16"
+  bnb_4bit_use_double_quant: true
+
+lora:
+  r: 16
+  lora_alpha: 32
+  lora_dropout: 0.05
+  bias: "none"
+  task_type: "CAUSAL_LM"
+  # Phi-2 attention proj names; for Mistral use ["q_proj","k_proj","v_proj","o_proj"] too.
+  target_modules: ["q_proj", "k_proj", "v_proj", "dense"]
+
+dpo:
+  # Beta sweep: build the utility/resistance Pareto frontier across these five points.
+  beta_sweep: [0.1, 0.3, 0.5, 0.7, 1.0]
+  num_train_epochs: 3
+  per_device_train_batch_size: 2
+  gradient_accumulation_steps: 8
+  learning_rate: 5.0e-6
+  lr_scheduler_type: "cosine"
+  warmup_ratio: 0.1
+  max_length: 512
+  max_prompt_length: 256
+  logging_steps: 10
+  save_strategy: "epoch"
+  fp16: true
+  seed: 42
+
+data:
+  train_file: "data/train.jsonl"
+  eval_file: "data/test.jsonl"
+
+output:
+  adapters_dir: "models/adapters"
+  logs_dir: "results/training_logs"

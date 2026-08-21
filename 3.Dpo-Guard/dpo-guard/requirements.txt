@@ -1,0 +1,25 @@
+# Core ML stack (versions pinned to what works on Colab T4, Nov 2025)
+torch>=2.2.0
+transformers>=4.44.0
+trl>=0.11.0
+peft>=0.12.0
+accelerate>=0.33.0
+bitsandbytes>=0.43.0
+datasets>=2.20.0
+
+# Evaluation & plotting
+scikit-learn>=1.4.0
+matplotlib>=3.8.0
+pandas>=2.2.0
+numpy>=1.26.0
+
+# Dataset augmentation (optional; only if you run augment_dataset.py)
+openai>=1.40.0
+tqdm>=4.66.0
+
+# Config / env
+python-dotenv>=1.0.0
+pyyaml>=6.0.1
+
+# LLM-as-judge evaluation (optional; uses OpenAI)
+tenacity>=8.2.0
