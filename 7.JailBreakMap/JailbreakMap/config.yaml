@@ -1,0 +1,7 @@
+# JailbreakMap configuration
+random_seed: 42
+n_clusters: 8
+embedding_model: all-MiniLM-L6-v2
+min_rows_required: 1000
+time_bucket: month     # month | quarter | year
+synthetic_size: 1200   # rows when running with --synthetic
